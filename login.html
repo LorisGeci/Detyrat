@@ -7,29 +7,69 @@
 </head>
 <body>
     <form>
+      <fieldset>
+        <legend>Login</legend>
         <label for="Emrin">Emrin</label>
         <br>
-        <input type="text" name="Emrin" itemref="Emrin">
+        <input type="text" name="Emrin" itemref="Emrin" value="Loris" readonly>
         <br>
           <label for="Mbiemri">mbiemri</label>
         <br>
-        <input type="text" name="Mbiemrin" itemref="Mbiemri">
+        <input type="text" name="Mbiemrin" itemref="Mbiemri" disabled>
         <br>
         <label for="email">email</label>
         <br>
-        <input type="text" name="email" itemref="email">
+        <input type="text" name="email" itemref="email" placeholder="email">
         <br>
           <label for="Password">Password</label>
         <br>
-        <input type="password" name="Password" itemref="Password">
+        <input type="password" name="Password" itemref="Password" >
    <br>
        <label for="gender">Gender:</label>
        <br>
        <input type="radio" id="male" name="gender" value="male">
        <label for="male">Male</label>
+       <br>
        <input type="radio" id="female" name="gender" value="female">
        <label for="female">Female</label>
        <br>
+       <label>Hobies</label>
+       <br>
+       <input type="checkbox" id="gaming" name="gaming" value="Emrin">
+       <label>Gaming</label>
+       <input type="checkbox" id="football" name="football" value="football">
+       <label>Football</label>
+
+       <br><br>
+       <p>Pet</p>
+       <select name="Pet" id="Pet"> 
+       <option value="Dog">Dog</option>
+       <option value="Cat">Cat</option>
+       <option value="Cow">Cow</option></select>
+       
+       <br><br>
+       <textarea name="Message" rows="10" cols="20" maxlength="50"></textarea>
+       <br>
+       <input type="submit" name="submit" id="submit">
     </form>
+     <article>
+      <p>Lorem ipsum dolor sit amet.</p>
+     </article>
+     <br>
+     <details>
+      <summary>Digital School</summary>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+     </details>
+     </fieldset>
+     <figure>
+      <img src="natyra.jpg" alt="" width="200" height="300">
+      <figcaption>Figure 1</figcaption>
+     </figure>
+
+     <section>
+      <h2>Hello World</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nobis.</p>
+     </section>
+     
 </body>
 </html>
